@@ -561,7 +561,7 @@ export default function Index() {
                 </div>
                 <div className="text-center">
                   <p className="text-white font-semibold">TheМост Апарт-отель</p>
-                  <p className="text-white/50 text-sm">ул. Навагинская, 16 · Сочи</p>
+                  <p className="text-white/50 text-sm">ул. Учительская, 5 · Сочи</p>
                 </div>
                 <button className="px-6 py-2 border border-gold/40 text-gold text-sm rounded-full hover:bg-gold/10 transition-colors flex items-center gap-2">
                   <Icon name="ExternalLink" size={14} />
