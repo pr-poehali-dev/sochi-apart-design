@@ -201,9 +201,9 @@ export default function Index() {
               <div className="h-px w-12 bg-gold" />
               <span className="text-gold text-sm font-medium tracking-widest uppercase">Сочи · Центр</span>
             </div>
-            <h1 className="font-display text-7xl md:text-[120px] leading-none text-white mb-6 animate-fade-up delay-100">
+            <h1 className="font-display text-8xl md:text-[130px] leading-[0.9] text-white mb-6 animate-fade-up delay-100">
               TheМост<br />
-              <span className="text-gold" style={{ fontSize: "0.55em" }}>АПАРТ-ОТЕЛЬ</span>
+              <span className="text-gold italic" style={{ fontSize: "0.42em", fontWeight: 400, letterSpacing: "0.15em" }}>апарт-отель</span>
             </h1>
             <p className="text-white/70 text-lg md:text-xl max-w-lg mb-10 animate-fade-up delay-200">
               Апарт-отель нового поколения в самом сердце Сочи.

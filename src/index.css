@@ -57,8 +57,9 @@
 
 @layer utilities {
   .font-display {
-    font-family: "Bebas Neue", sans-serif;
-    letter-spacing: 0.05em;
+    font-family: "Cormorant Garamond", serif;
+    font-weight: 300;
+    letter-spacing: 0.03em;
   }
 
   .text-gold {
