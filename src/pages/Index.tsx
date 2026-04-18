@@ -127,7 +127,6 @@ export default function Index() {
   const navLinks = [
     { id: "rooms", label: "Номера" },
     { id: "tour3d", label: "3D-тур" },
-    { id: "services", label: "Услуги" },
     { id: "gallery", label: "Галерея" },
     { id: "reviews", label: "Отзывы" },
     { id: "booking", label: "Бронировать" },
@@ -385,32 +384,6 @@ export default function Index() {
             )}
           </div>
         </AnimSection>
-      </section>
-
-      {/* SERVICES */}
-      <section id="services" className="py-24 px-6 md:px-16">
-        <AnimSection>
-          <div className="flex items-center gap-4 mb-4">
-            <div className="h-px w-12 bg-gold" />
-            <span className="text-gold text-sm tracking-widest uppercase">Услуги</span>
-          </div>
-          <h2 className="font-display text-6xl md:text-7xl text-white mb-16">ВСЁ<br />ВКЛЮЧЕНО</h2>
-        </AnimSection>
-
-        <div className="grid grid-cols-2 md:grid-cols-3 gap-4 md:gap-6">
-          {services.map((s, i) => (
-            <AnimSection key={s.title}>
-              <div className="p-6 rounded-2xl border border-white/10 hover:border-gold/40 transition-all duration-300 group cursor-default"
-                style={{ background: "#0d0d0d" }}>
-                <div className="w-12 h-12 rounded-xl bg-gold/10 flex items-center justify-center mb-4 group-hover:bg-gold/20 transition-colors">
-                  <Icon name={s.icon} size={22} className="text-gold" fallback="Star" />
-                </div>
-                <h3 className="font-semibold text-white mb-1">{s.title}</h3>
-                <p className="text-white/50 text-sm">{s.desc}</p>
-              </div>
-            </AnimSection>
-          ))}
-        </div>
       </section>
 
       {/* GALLERY */}
