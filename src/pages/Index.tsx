@@ -153,7 +153,7 @@ export default function Index() {
       <nav className="fixed top-0 left-0 right-0 z-50 px-6 py-4 flex items-center justify-between"
         style={{ background: "linear-gradient(to bottom, rgba(0,0,0,0.85), transparent)", backdropFilter: "blur(2px)" }}>
         <button onClick={() => scrollTo("hero")} className="font-display text-2xl text-gold tracking-widest">
-          SOHO APART
+          TheМост
         </button>
 
         <div className="hidden md:flex items-center gap-8">
@@ -244,7 +244,7 @@ export default function Index() {
         <div className="flex animate-marquee whitespace-nowrap">
           {Array(8).fill(null).map((_, i) => (
             <span key={i} className="font-display text-2xl text-background mx-8 tracking-widest">
-              SOHO APART · СОЧИ · ЦЕНТР · СТИЛЬ · СВОБОДА · МОРЕ ·
+              TheМост · СОЧИ · ЦЕНТР · СТИЛЬ · СВОБОДА · МОРЕ ·
             </span>
           ))}
         </div>
@@ -322,7 +322,7 @@ export default function Index() {
                 style={{ background: `linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.8)), url(${HERO_IMG}) center/cover` }}>
                 <div className="text-center">
                   <p className="text-white/60 text-sm mb-2 tracking-widest uppercase">Интерактивный 3D-тур</p>
-                  <h3 className="font-display text-4xl md:text-5xl text-white mb-8">SOHO APART · СОЧИ</h3>
+                  <h3 className="font-display text-4xl md:text-5xl text-white mb-8">TheМост · СОЧИ</h3>
                 </div>
                 <button
                   onClick={() => setTourActive(true)}
@@ -603,7 +603,7 @@ export default function Index() {
       {/* FOOTER */}
       <footer className="py-8 px-6 md:px-16 border-t border-white/10">
         <div className="flex flex-col md:flex-row items-center justify-between gap-4">
-          <span className="font-display text-xl text-gold tracking-widest">SOHO APART</span>
+          <span className="font-display text-xl text-gold tracking-widest">TheМост</span>
           <p className="text-white/30 text-sm">© 2024 SOHO Apart Hotel · Сочи · Все права защищены</p>
           <div className="flex gap-6">
             <button className="text-white/40 text-sm hover:text-white transition-colors">Конфиденциальность</button>
