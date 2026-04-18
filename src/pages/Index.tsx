@@ -523,7 +523,7 @@ export default function Index() {
 
               <div className="space-y-6">
                 {[
-                  { icon: "MapPin", label: "Адрес", value: "ул. Навагинская, 16, Сочи" },
+                  { icon: "MapPin", label: "Адрес", value: "ул. Учительская, 5, Сочи" },
                   { icon: "Phone", label: "Телефон", value: "+7 (862) 123-45-67" },
                   { icon: "Mail", label: "Email", value: "hello@themost.ru" },
                   { icon: "Clock", label: "Ресепшн", value: "Круглосуточно, 24/7" },
