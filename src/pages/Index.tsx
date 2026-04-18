@@ -190,7 +190,7 @@ export default function Index() {
       {/* HERO */}
       <section id="hero" className="relative h-screen flex items-end overflow-hidden">
         <div className="absolute inset-0">
-          <img src={HERO_IMG} alt="SOHO Apart Sochi" className="w-full h-full object-cover" />
+          <img src={HERO_IMG} alt="TheМост Апарт-отель Сочи" className="w-full h-full object-cover" />
           <div className="absolute inset-0" style={{
             background: "linear-gradient(to top, rgba(0,0,0,0.95) 0%, rgba(0,0,0,0.4) 50%, rgba(0,0,0,0.2) 100%)"
           }} />
@@ -203,8 +203,8 @@ export default function Index() {
               <span className="text-gold text-sm font-medium tracking-widest uppercase">Сочи · Центр</span>
             </div>
             <h1 className="font-display text-7xl md:text-[120px] leading-none text-white mb-6 animate-fade-up delay-100">
-              ЖИВИ<br />
-              <span className="text-gold">ЯРКО</span>
+              TheМост<br />
+              <span className="text-gold" style={{ fontSize: "0.55em" }}>АПАРТ-ОТЕЛЬ</span>
             </h1>
             <p className="text-white/70 text-lg md:text-xl max-w-lg mb-10 animate-fade-up delay-200">
               Апарт-отель нового поколения в самом сердце Сочи.
@@ -552,7 +552,7 @@ export default function Index() {
                 {[
                   { icon: "MapPin", label: "Адрес", value: "ул. Навагинская, 16, Сочи" },
                   { icon: "Phone", label: "Телефон", value: "+7 (862) 123-45-67" },
-                  { icon: "Mail", label: "Email", value: "hello@soho-apart.ru" },
+                  { icon: "Mail", label: "Email", value: "hello@themost.ru" },
                   { icon: "Clock", label: "Ресепшн", value: "Круглосуточно, 24/7" },
                 ].map(c => (
                   <div key={c.icon} className="flex items-center gap-4">
@@ -587,7 +587,7 @@ export default function Index() {
                   <Icon name="MapPin" size={28} className="text-gold" />
                 </div>
                 <div className="text-center">
-                  <p className="text-white font-semibold">SOHO Apart Hotel</p>
+                  <p className="text-white font-semibold">TheМост Апарт-отель</p>
                   <p className="text-white/50 text-sm">ул. Навагинская, 16 · Сочи</p>
                 </div>
                 <button className="px-6 py-2 border border-gold/40 text-gold text-sm rounded-full hover:bg-gold/10 transition-colors flex items-center gap-2">
@@ -604,7 +604,7 @@ export default function Index() {
       <footer className="py-8 px-6 md:px-16 border-t border-white/10">
         <div className="flex flex-col md:flex-row items-center justify-between gap-4">
           <span className="font-display text-xl text-gold tracking-widest">TheМост</span>
-          <p className="text-white/30 text-sm">© 2024 SOHO Apart Hotel · Сочи · Все права защищены</p>
+          <p className="text-white/30 text-sm">© 2024 TheМост Апарт-отель · Сочи · Все права защищены</p>
           <div className="flex gap-6">
             <button className="text-white/40 text-sm hover:text-white transition-colors">Конфиденциальность</button>
             <button className="text-white/40 text-sm hover:text-white transition-colors">Правила отеля</button>
